@@ -7,10 +7,9 @@ import javax.servlet.annotation.*;
 @WebServlet(name = "helloServlet", value = "/hello-servlet")
 public class HelloServlet extends HttpServlet {
     private String message;
-    private String message_2;
 
     public void init() {
-        message = "Hello World!";
+        message = "Helloooo World!";
     }
 
     public void doGet(HttpServletRequest request, HttpServletResponse response) throws IOException {
